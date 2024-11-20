@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.control.Label?>
+
+
+<Pane fx:id="gamePane" xmlns:fx="http://javafx.com/javafx" fx:controller="com.example.demo3.GameController">
+<children>
+    <!-- Bird -->
+    <Rectangle fx:id="bird" width="30" height="30" fill="blue" x="100" y="250"/>
+
+    <!-- Score Label -->
+    <Label fx:id="scoreLabel" text="Score: 0" layoutX="10" layoutY="10"
+           style="-fx-font-size: 24; -fx-text-fill: white;"/>
+</children>
+<style>
+    -fx-background-color: lightblue;
+</style>
+</Pane>
